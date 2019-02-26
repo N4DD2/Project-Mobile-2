@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Nối Thú</string>
+    <string name="lblTitle">Game Nối Thú</string>
+    <string name="btnTieptuc">Tiếp Tục</string>
+    <string name="btnChoiMoi">Chơi Mới</string>
+    <string name="btnXephang">Xếp Hạng</string>
+    <string name="btnCaiDat">Cài Đặt</string>
+    <string name="btnTroGiup">Trợ Giúp</string>
+</resources>
