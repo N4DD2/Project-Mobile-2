@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/bgDuaThu"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/anhloi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn2048"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/game2048" />
+
+        <ImageButton
+            android:id="@+id/btnDuathu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cdkticon" />
+
+        <ImageButton
+            android:id="@+id/btnSpeedMtach"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/chim1" />
+
+        <ImageButton
+            android:id="@+id/btnBauCua"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bau" />
+        <ImageButton
+            android:id="@+id/btnFish"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fish_icon"/>
+    </LinearLayout>
+</LinearLayout>
