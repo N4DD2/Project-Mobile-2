@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hoavan"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/game_bau_cua"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/produce"
+        android:textSize="20sp"
+        android:layout_marginStart="40dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/kenner"
+        android:textSize="20sp"
+        android:layout_marginStart="40dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/developer"
+        android:textSize="20sp"
+        android:layout_marginStart="40dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/model"
+        android:textSize="20sp"
+        android:layout_marginStart="40dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="20dip"
+        android:text="@string/address"
+        android:textSize="20sp"
+        android:layout_marginStart="40dip" />
+
+    <Button
+        android:id="@+id/btnbackabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dip"
+        android:background="@drawable/back" />
+
+</LinearLayout>
