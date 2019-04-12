@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="list_name">
+        <item>chim1</item>
+        <item>chim2</item>
+        <item>chim3</item>
+    </string-array>
+</resources>
