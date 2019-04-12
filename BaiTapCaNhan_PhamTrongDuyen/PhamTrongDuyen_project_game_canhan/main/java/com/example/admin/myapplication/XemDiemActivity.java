@@ -1,4 +1,4 @@
-package com.example.admin.myapplication;
+﻿package com.example.admin.myapplication;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -32,7 +32,7 @@ public class XemDiemActivity extends AppCompatActivity {
 
         } else {
             txtXemDiem.setText(tongDiem+"");
-            txtDiemCaoNhat.setText("Điểm cao nhất: " + tongDiem);
+            txtDiemCaoNhat.setText("Điểm cao nhất: " + diemcaonhat);
         }
         ibtnReplay.setOnClickListener(new View.OnClickListener() {
             @Override
