@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgDuaThu"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="29dp"
+        android:id="@+id/chkMot"
+        android:layout_above="@+id/chkHai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/chkHai"
+        android:layout_above="@+id/chkBa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <CheckBox
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/chkBa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginBottom="10dp"
+        android:thumb="@drawable/hinh01"
+        android:id="@+id/sbrBa"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/chkBa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginBottom="15dp"
+        android:thumb="@drawable/hinh02"
+        android:id="@+id/sbrHai"
+        android:layout_toRightOf="@+id/chkHai"
+        android:layout_above="@+id/sbrBa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <SeekBar
+        android:progressDrawable="@android:color/transparent"
+        android:layout_marginBottom="20dp"
+        android:thumb="@drawable/hinh03"
+        android:id="@+id/sbrMot"
+        android:layout_toRightOf="@+id/chkMot"
+        android:layout_above="@+id/sbrHai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logonhom4"
+        android:layout_width="150dp"
+        android:layout_height="120dp" />
+    <TextView
+        android:id="@+id/txtDiem"
+        android:layout_margin="10dp"
+        android:textColor="#ff00"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:layout_centerInParent="true"
+        android:id="@+id/btnPlay"
+        android:src="@drawable/play"
+        android:layout_width="155dp"
+        android:layout_height="140dp"
+        android:background="@drawable/btn_play"/>
+
+</RelativeLayout>

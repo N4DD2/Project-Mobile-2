@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "940562379151",
+    "firebase_url": "https://game2048-17b8d.firebaseio.com",
+    "project_id": "game2048-17b8d",
+    "storage_bucket": "game2048-17b8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940562379151:android:b777a02648fcc1ba",
+        "android_client_info": {
+          "package_name": "camdich.com.dumv.game2048"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940562379151-vo44fqrtrieoh390moodom8ue16r282b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "camdich.com.dumv.game2048",
+            "certificate_hash": "5f9ed15f1ae0c7b5cb73c93729314c8de9ca8577"
+          }
+        },
+        {
+          "client_id": "940562379151-5nrk2ci26almcq7m78dmkijf9hqfeo8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw2iOOjV-8IPjJfYlB459g9xV8G4oxGXg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

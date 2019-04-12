@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GameBauCua</string>
+    <string name="tien">200</string>
+    <string name="game_bau_cua">Game Bầu Cua Tôm Cá</string>
+    <string name="produce">Produce in: 17/03/2019</string>
+    <string name="kenner">Kenner: LTDD2N4</string>
+    <string name="developer">Developer: NHÓM 4</string>
+    <string name="model">Model: 1.0.0</string>
+    <string name="address">Address: HoChiMinh - VietNam</string>
+</resources>

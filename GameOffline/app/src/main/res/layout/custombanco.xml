@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgbanco"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/bau" />
+
+        <Spinner
+            android:id="@+id/spingiatien"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:paddingStart="50dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="80dp"
+            tools:ignore="RtlSymmetry" />
+        <TextView
+            android:id="@+id/tvSpin"
+            android:paddingLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</FrameLayout>

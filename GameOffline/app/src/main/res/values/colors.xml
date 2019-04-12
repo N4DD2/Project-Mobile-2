@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgDuaThu">#A4D1E6</color>
+    <array name="color">
+        <item >#EEE4DA</item>
+        <item >#EDE0C8</item>
+        <item >#F59563</item>
+        <item >#dc8558</item>
+        <item >#F67C5F</item>
+        <item >#F65E3B</item>
+        <item >#fdde7b</item>
+        <item >#e7ca70</item>
+        <item >#E9C12B</item>
+        <item >#E3BA14</item>
+        <item >#EDC501</item>
+        <item >#60D992</item>
+        <item >#2e995a</item>
+        <item >#087134</item>
+        <item >#63f5d8</item>
+        <item >#35b3a2</item>
+        <item >#0977a6</item>
+        <item >#2b1396</item>
+    </array>
+</resources>

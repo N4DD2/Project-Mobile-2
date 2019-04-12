@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hoavan"
+    android:orientation="vertical"
+    tools:context=".BauCuaActivity">
+
+    <FrameLayout
+        android:layout_width="105dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@drawable/backgroundframe"
+        android:paddingTop="3dp">
+
+        <TextView
+            android:id="@+id/tvtien"
+            android:layout_width="52dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/backgowndview"
+            android:gravity="center"
+            android:text="@string/tien" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/phinh" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <GridView
+
+            android:id="@+id/gvbanco"
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:gravity="center"
+            android:horizontalSpacing="30dp"
+            android:numColumns="3"
+            android:verticalSpacing="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/xingau1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/hinhdongxingau" />
+
+        <ImageView
+            android:id="@+id/xingau2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/hinhdongxingau" />
+
+        <ImageView
+            android:id="@+id/xingau3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/hinhdongxingau" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnstart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/buttonstar"
+        android:onClick="lacxingau" />
+
+
+</LinearLayout>
