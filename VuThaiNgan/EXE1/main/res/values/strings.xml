@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Cal</string>
+    <string name="edtCal">Nhap phep tinh</string>
+    <string name="so_0">0</string>
+    <string name="so_1">1</string>
+    <string name="so_2">2</string>
+    <string name="so_3">3</string>
+    <string name="so_4">4</string>
+    <string name="so_5">5</string>
+    <string name="so_6">6</string>
+    <string name="so_7">7</string>
+    <string name="so_8">8</string>
+    <string name="so_9">9</string>
+    <string name="Cong">+</string>
+    <string name="Tru">-</string>
+    <string name="Nhan">*</string>
+    <string name="Chia">/</string>
+    <string name="Bang">=</string>
+    <string name="Xoa">C</string>
+    <string name="XoaAC">AC</string>
+    <string name="Point">.</string>
+</resources>
