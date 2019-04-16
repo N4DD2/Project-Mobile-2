@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBtnExe">#663399</color>
+    <color name="colorTextBtnExe">#FFFFFF</color>
+    <color name="colorBackgroundTitle">#004400</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorTitle">#FFCC00</color>
+    <color name="colorTextDesk">#FFFFFF</color>
+    <color name="colorDesk">#003399</color>
+    <color name="green">#A0BA</color>
+    <color name="red">#B00</color>
+    <color name="yellow">#FF0</color>
+    <color name="colorKhu">#B00</color>
+    <color name="colorBackground">#DDDDDD</color>
+</resources>
